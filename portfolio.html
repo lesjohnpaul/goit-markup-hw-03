@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WEBSTUDIO</title>
+    <meta name="description" content="" />
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <!-- Header Section -->
+    <header class="main-header-container">
+      <nav class="nav-links">
+        <!-- Nav bar -->
+        <a href="/goit-markup-hw-03/index.html" class="nav-logo">
+          <span class="logo-web">WEB</span>STUDIO
+        </a>
+
+        <ul class="main-header-menu">
+          <li class="main-header-menu-item">
+            <a
+              class="main-header-menu-link"
+              href="/goit-markup-hw-03/index.html"
+              >Studio</a
+            >
+          </li>
+          <li class="main-header-menu-item">
+            <a
+              class="main-header-menu-link active"
+              href="/goit-markup-hw-03/portfolio.html"
+              >Portfolio</a
+            >
+          </li>
+          <li class="main-header-menu-item">
+            <a class="main-header-menu-link" href="/goit-markup-hw-03/"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <address>
+        <ul class="main-header-menu-contact">
+          <li class="main-header-menu-tel">
+            <a
+              class="main-header-menu-tel-link"
+              href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="main-header-menu-num">
+            <a class="main-header-menu-num-link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+        </ul>
+      </address>
+    </header>
+
+    <main class="porfolio-main">
+      <section class="portfolio">
+        <h2 class="portfolio-title" hidden>Our Services and Products</h2>
+        <ul class="filter-list">
+          <li class="filter-list-item">
+            <button id="all" class="portfolio-filter-button" type="button">
+              All
+            </button>
+          </li>
+          <li class="filter-list-item">
+            <button id="website" class="portfolio-filter-button" type="button">
+              Web Site
+            </button>
+          </li>
+          <li>
+            <button id="app" class="portfolio-filter-button" type="button">
+              App
+            </button>
+          </li>
+          <li class="filter-list-item">
+            <button id="design" class="portfolio-filter-button" type="button">
+              Design
+            </button>
+          </li>
+          <li class="filter-list-item">
+            <button
+              id="marketing"
+              class="portfolio-filter-button"
+              type="button"
+            >
+              Marketing
+            </button>
+          </li>
+        </ul>
+
+        <ul class="portfolio-list">
+          <li class="portfolio-list-item">
+            <img
+              src="images/banking-app-ui.jpg"
+              alt="Bank App UI mockups with purple color family"
+              width="300"
+            />
+            <h3 class="portfolio-name">Banking App Interface Concept</h3>
+            <p class="portfolio-type" data-category="App">App</p>
+          </li>
+          <li class="portfolio-list-item">
+            <img
+              class="portfolio-item-image"
+              src="images/cashless-payment.jpg"
+              alt="a phone scanning QR code to make a transaction"
+              width="300"
+            />
+            <h3 class="portfolio-name">Cashless Payment</h3>
+            <p class="portfolio-type" data-category="Marketing">Marketing</p>
+          </li>
+          <li class="portfolio-list-item">
+            <img
+              class="portfolio-item-image"
+              src="images/meditation-app.jpg"
+              alt="Laptop and Phone Screen mockup with 'return to normalcy' text on it"
+              width="300"
+            />
+            <h3 class="portfolio-name">Meditation App</h3>
+            <p class="portfolio-type" data-category="App">App</p>
+          </li>
+          <li class="portfolio-list-item">
+            <img
+              class="portfolio-item-image"
+              src="images/taxi-service.jpg"
+              alt="Car's turning wheel with a phone holder hanging on the leftside frontview of the driver"
+              width="300"
+            />
+            <h3 class="portfolio-name">Taxi Service</h3>
+            <p class="portfolio-type" data-category="Marketing">Marketing</p>
+          </li>
+          <li class="portfolio-list-item">
+            <img
+              class="portfolio-item-image"
+              src="images/screen-illustrations.jpg"
+              alt="Moon light design graphics on a phone screen mockups"
+              width="300"
+            />
+            <h3 class="portfolio-name">Screen Illustrations</h3>
+            <p class="portfolio-type" data-category="Design">Design</p>
+          </li>
+          <li class="portfolio-list-item">
+            <img
+              class="portfolio-item-image"
+              src="images/online-courses.jpg"
+              alt="A happy woman wearing her clear eyeglasses, gray bonnet and orange knitted clothes holding her phone and right pair of her wired earphones"
+              width="300"
+            />
+            <h3 class="portfolio-name">Online Courses</h3>
+            <p class="portfolio-type" data-category="Marketing">Marketing</p>
+          </li>
+          <li class="portfolio-list-item">
+            <img
+              class="portfolio-item-image"
+              src="images/insta-stories-concept.jpg"
+              alt="A website design for social media content"
+              width="300"
+            />
+            <h3 class="portfolio-name">Instagram Stories Concept</h3>
+            <p class="portfolio-type" data-category="Design">Design</p>
+          </li>
+          <li class="portfolio-list-item">
+            <img
+              class="portfolio-item-image"
+              src="images/organic-food.jpg"
+              alt="Woman carrying fruits and Green leafy vegtables on a plastic bag"
+              width="300"
+            />
+            <h3 class="portfolio-name">Organic Food</h3>
+            <p class="portfolio-type" data-category="Web Site">Web Site</p>
+          </li>
+          <li class="portfolio-list-item">
+            <img
+              class="portfolio-item-image"
+              src="images/fresh-coffee.jpg"
+              alt="Moon light design graphics on a phone screen mockups"
+              width="300"
+            />
+            <h3 class="portfolio-name">Fresh Coffee</h3>
+            <p class="portfolio-type" data-category="Design">Design</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <!-- Footer section -->
+    <footer class="main-footer-section">
+      <a href="/goit-markup-hw-01/" class="footer-logo">
+        <span class="footerlogo-web">WEB</span
+        ><span class="footerlogo-studio">STUDIO</span>
+      </a>
+      <p class="footer-text">
+        Increase the flow of customers and <br />sales for your business with
+        digital <br />marketing & growth solutions.
+      </p>
+    </footer>
+  </body>
+</html>
