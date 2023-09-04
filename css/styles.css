@@ -43,6 +43,14 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+}
+
 p {
   margin: 0;
   padding: 0;
@@ -51,8 +59,18 @@ p {
 button {
   border: none;
   cursor: pointer;
+  outline: none;
 }
 
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  width: 100%;
+  height: auto;
+
+}
 
 .main-container {
   display: flex;
@@ -63,9 +81,9 @@ button {
   width: 100%;
   margin: 0 auto;
   background-color: var(--color-white);
-
-
 }
+
+
 
 /* 
 Header Section */
@@ -104,72 +122,6 @@ Header Section */
 
 
 
-
-
-
-
-
-
-
-
-
-/* .main-header-container {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 25.5px 56px 25.5px 56px;
- 
-} */
-
-/* 
-.nav-logo {
-  padding-right: 76px;
-
-} */
-
-/* .main-header-nav,
-.main-header-address {
-  display: inline-flex;
-  height: 24px;
-
-} */
-
-/* .main-header-menu-item {
-  display: inline-flex;
-  align-items: flex-start;
-  gap: 40px;
-  padding-right: 40px;
-} */
-
-/* .main-header-menu-item:last-child {
-  margin-right: 0;
-} */
-
-/* .main-header-address {
-  display: inline-flex;
-   padding-left: 56px; 
-  margin-left: auto;
-
-} */
-
-/* 
-.main-header-menu-tel-link {
-  margin-right: 40px;
-} */
-/* 
-.main-header-menu-contact {
-  display: inline-block;
-} */
-/* 
-.main-header-menu-tel,
-.main-header-menu-num {
-  display: inline-flex;
-}
- */
-
-
-
-
 .main-header-menu,
 .main-header-menu-contact,
 .features-section-list,
@@ -178,50 +130,6 @@ Header Section */
 .services-image-tiles {
   color: var(--color-navyblue);
 }
-
-/* Logo Section */
-.nav-logo,
-.footer-logo {
-  font-family: "Raleway";
-  color: var(--color-navyblue);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 21px;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-
-}
-
-.footerlogo-web,
-.logo-web {
-  color: var(--color-iris);
-}
-
-.logo-studio {
-  font-family: "Raleway";
-  color: var(--color-navyblue);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 21px;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-}
-
-.footerlogo-studio {
-  font-family: "Raleway";
-  color: var(--color-white);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 21px;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-}
-
-
-
 
 /* Navigation Bar Section */
 .main-header-menu-link.active {
@@ -260,15 +168,32 @@ Header Section */
   color: var(--color-ocean);
 }
 
+/* Logo Section */
+.nav-logo,
+.footer-logo {
+  font-family: "Raleway";
+  color: var(--color-navyblue);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+
+}
+
+
+
+
+
+
 /* Hero Section */
 
-.hero-section {
+.hero {
   background-color: var(--color-navyblue);
-  display: flex;
-  justify-content: center;
-  text-align: center;
+  flex-direction: column;
+  gap: 40px;
   height: 600px;
-
 }
 
 .hero-title {
@@ -279,24 +204,18 @@ Header Section */
   font-weight: 700;
   line-height: 60px;
   letter-spacing: 1.12px;
-  padding-top: 188px;
-  padding-bottom: 48px;
-  margin: 0px 0px 0px 0px;
-  width: 496px;
+
 }
+
+
+
+
 
 /* Call to Action Button */
 .main-header-cta {
-  display: inline-flex;
   padding: 16px 32px;
   align-items: flex-start;
-  gap: 10px;
   color: var(--color-white);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.64px;
   background-color: var(--color-iris);
   font-weight: 500;
   border-radius: 4px;
@@ -504,4 +423,32 @@ Header Section */
 
 .portfolio-type {
   color: var(--color-slate);
+}
+
+
+.footerlogo-web,
+.logo-web {
+  color: var(--color-iris);
+}
+
+.logo-studio {
+  font-family: "Raleway";
+  color: var(--color-navyblue);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.footerlogo-studio {
+  font-family: "Raleway";
+  color: var(--color-white);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
 }
