@@ -35,6 +35,11 @@ ul {
   padding: 0;
 }
 
+p {
+  font-size: 16px;
+  color: var(--color-slate);
+}
+
 li {
   text-align: inherit;
 }
@@ -272,6 +277,10 @@ Header Section */
   padding-bottom: 8px;
 }
 
+.features-description {
+  display: block;
+  width: 264px;
+}
 
 
 
@@ -285,7 +294,7 @@ Header Section */
   flex-direction: column;
 }
 
-.service-title {
+.services-title {
   text-align: center;
   font-size: 32px;
   font-weight: 500;
@@ -293,6 +302,12 @@ Header Section */
   color: var(--color-navyblue);
 }
 
+.services-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
 
 /* .services-list-item {
   display: inline-flex;
