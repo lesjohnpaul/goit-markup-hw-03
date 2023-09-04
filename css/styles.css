@@ -110,6 +110,11 @@ section {
 
 }
 
+main {
+  display: block;
+  width: 100%;
+}
+
 .main-container {
   display: flex;
   flex-direction: column;
@@ -291,12 +296,16 @@ Header Section */
 
 
 /* Services Section */
+.services-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
 
 .services {
-  padding-top: 0px;
-  padding-right: 40px;
-  padding-bottom: 120px;
   flex-direction: column;
+  padding: 0px 40px 120px;
 }
 
 .services-title {
@@ -307,13 +316,6 @@ Header Section */
   color: var(--color-navyblue);
 }
 
-.services-list {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 40px;
-}
-
 
 
 /* Team Section */
@@ -322,36 +324,11 @@ Header Section */
   flex-direction: column;
   padding: 120px 40px;
   background-color: var(--color-cloud);
+
 }
 
 
-
-/* .team-list-item {
-  padding-right: 24px;
-  display: inline-flex;
-  padding-bottom: 0px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 32px;
-  border-radius: 0px 0px 4px 4px;
-  background: var(--WHITE, #FFF);
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-}
-
-.team-item-image {
-  width: 264px;
-  height: 260px;
-}
-
-.team-list-item:last-child {
-  padding-right: 0px;
-}
- */
-/* 
-.team {
-  background-color: var(--color-cloud);
-} */
+/* Our Team */
 
 .team-title {
   text-align: center;
