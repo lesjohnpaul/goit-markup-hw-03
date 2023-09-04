@@ -285,6 +285,13 @@ Header Section */
   flex-direction: column;
 }
 
+.service-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 40px;
+  color: var(--color-navyblue);
+}
 
 
 /* .services-list-item {
@@ -298,15 +305,7 @@ Header Section */
 
 .services-list-item:last-child {
   padding-right: 0px;
-}
-
-.services-title {
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-  text-align: center;
-}
- */
+} */
 
 
 /* Team Section */
