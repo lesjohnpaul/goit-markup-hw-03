@@ -43,12 +43,40 @@ a {
   text-decoration: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: capitalize;
+  margin: 0;
+  padding: 0;
+}
+
 h1 {
-  font-size: 16px;
+  font-size: 64px;
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.64px;
+}
+
+h2 {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.72px;
+}
+
+h3 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+
 }
 
 p {
@@ -208,9 +236,6 @@ Header Section */
 }
 
 
-
-
-
 /* Call to Action Button */
 .main-header-cta {
   padding: 16px 32px;
@@ -230,47 +255,39 @@ Header Section */
 
 /* Feature section */
 
+.features {
+  display: flex;
+  padding: 120px 40px
+}
+
 .features-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  gap: 40px;
-}
-
-.features-list-item {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 20px;
-}
-
-.features-list-item:last-child {
-  padding-right: 0px;
+  gap: 24px;
 }
 
 .features-item-title {
   color: var(--navyblue, #2e2f42);
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
   padding-bottom: 8px;
 }
 
-.features-description {
-  display: block;
-  color: var(--color-slate);
-  font-size: 1em;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-}
+
+
 
 
 /* Services Section */
-.services-list-item {
+
+.services {
+  padding-top: 0px;
+  padding-right: 40px;
+  padding-bottom: 120px;
+  flex-direction: column;
+}
+
+
+
+/* .services-list-item {
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
@@ -289,7 +306,7 @@ Header Section */
   font-weight: 700;
   text-align: center;
 }
-
+ */
 
 
 /* Team Section */
