@@ -414,6 +414,20 @@ Header Section */
 }
 
 /* -----PORTFOLIO------ */
+
+.portfolio {
+  padding: 96px 40px 120px;
+  flex-direction: column;
+
+}
+
+.filter-list {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+
 .portfolio-filter-button {
   background-color: var(--color-cloud);
   color: var(--color-iris);
