@@ -42,6 +42,8 @@ p {
 
 li {
   text-align: inherit;
+
+
 }
 
 a {
@@ -115,55 +117,39 @@ main {
   width: 100%;
 }
 
-.main-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  max-width: 1158px;
-  width: 100%;
+.container {
+  width: 1158px;
   margin: 0 auto;
-  background-color: var(--color-white);
+  padding: 0 15px;
 }
 
-
-
-/* 
-Header Section */
-
-.main-header-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
+/* HEADER */
+.header {
   border-bottom: 1px solid var(--color-cornflower);
-  background: var(--color-white);
-  padding: 24px 40px;
+  padding: 24px 0;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+
 }
 
 .main-header-nav {
   display: flex;
-  justify-content: space-between;
-  gap: 76px;
   align-items: center;
+  gap: 76px;
 }
 
 .main-header-menu {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   gap: 40px;
 }
 
 .main-header-address {
   display: flex;
-  align-items: flex-start;
   gap: 40px;
-  margin-left: auto;
-
 }
-
-
 
 .main-header-menu,
 .main-header-menu-contact,
