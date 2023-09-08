@@ -17,8 +17,8 @@
 
 <body>
   <!-- Header Section -->
-  <div class="main-container">
-    <header class="main-header-container">
+  <header class="header">
+    <div class="container header-container">
       <nav class="main-header-nav">
         <!-- Nav bar -->
         <a href="/goit-markup-hw-03/index.html" class="nav-logo">
@@ -30,7 +30,7 @@
             <a class="main-header-menu-link" href="/goit-markup-hw-03/index.html">Studio</a>
           </li>
           <li class="main-header-menu-item">
-            <a class="main-header-menu-link" href="/goit-markup-hw-03/portfolio.html">Portfolio</a>
+            <a class="main-header-menu-link active" href="/goit-markup-hw-03/portfolio.html">Portfolio</a>
           </li>
           <li class="main-header-menu-item">
             <a class="main-header-menu-link" href="/goit-markup-hw-03/">Contact</a>
@@ -41,14 +41,15 @@
         <a class="main-header-menu-tel-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
         <a class="main-header-menu-num-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
       </address>
-    </header>
-
-    <main class="porfolio-main">
-      <section class="portfolio">
+    </div>
+  </header>
+  <main class="porfolio-main">
+    <section class="portfolio">
+      <div class="container">
         <h2 class="portfolio-title" hidden>Our Services and Products</h2>
         <ul class="filter-list">
           <li class="filter-list-item">
-            <button id="all" class="portfolio-filter-button" type="button">
+            <button id="all" class="portfolio-filter-button active" type="button">
               All
             </button>
           </li>
@@ -147,10 +148,13 @@
             </div>
           </li>
         </ul>
-      </section>
-    </main>
-    <!-- Footer section -->
-    <footer class="main-footer-section">
+      </div>
+    </section>
+  </main>
+  <!-- Footer section -->
+
+  <footer class="main-footer-section">
+    <div class="container">
       <a href="/goit-markup-hw-01/" class="footer-logo">
         <span class="footerlogo-web">WEB</span><span class="footerlogo-studio">STUDIO</span>
       </a>
@@ -158,7 +162,8 @@
         Increase the flow of customers and <br />sales for your business with
         digital <br />marketing & growth solutions.
       </p>
-    </footer>
+    </div>
+  </footer>
   </div>
 </body>
 
