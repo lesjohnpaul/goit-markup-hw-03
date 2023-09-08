@@ -151,6 +151,7 @@ main {
   gap: 40px;
 }
 
+
 .main-header-menu,
 .main-header-menu-contact,
 .features-section-list,
@@ -220,9 +221,11 @@ main {
 
 .hero {
   background-color: var(--color-navyblue);
-  flex-direction: column;
-  gap: 40px;
-  height: 600px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 188px 0;
 }
 
 .hero-title {
@@ -233,6 +236,7 @@ main {
   font-weight: 700;
   line-height: 60px;
   letter-spacing: 1.12px;
+  margin-bottom: 40px;
 
 }
 
