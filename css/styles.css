@@ -331,9 +331,10 @@ main {
 .team-details {
   display: flex;
   flex-direction: column;
-  margin-bottom: 32px;
   align-items: center;
   gap: 8px;
+  padding-bottom: 32px;
+  width: 100%;
 
 }
 
@@ -381,15 +382,11 @@ main {
 
 
 .main-footer-section {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
-  height: 312px;
-  width: 100%;
+
   background-color: var(--color-navyblue);
   color: var(--color-cloud);
   text-decoration: none;
+  padding: 100px 0;
 }
 
 .footer-text {
